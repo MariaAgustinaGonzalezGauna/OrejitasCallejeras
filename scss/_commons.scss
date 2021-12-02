@@ -1,0 +1,221 @@
+$width: 500%;
+$height: 20px;
+
+*{
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    width: $width/2;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.right{
+    padding: 2%;
+    margin-left: 20%;
+} 
+
+.Nosotros__Text--right1{
+    width: $width/5-30;
+    float: right;
+    box-sizing: border-box;
+    padding: 2%;
+} 
+
+.Text__Green{
+    font-weight: 500;
+    color: rgb(78, 184, 78);
+    padding-left: 10px;
+}
+
+.btn0{
+    color: #0099CC;
+    background-color: transparent;
+    border: 3px solid #0099CC;
+    border-radius: 4px;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    width: 150px;
+    height: $height*2;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.btn0:hover{
+    background-color: #0099CC;
+    color: #fff;
+}
+
+.btn0-1{
+    font-size: 2rem;
+    margin: 3% 0% 3% 40%;
+    width: 250px;
+    height: $height*3;
+    font-weight: 500;
+}
+
+.btn0-2{
+    font-size: 2rem;
+    margin: 3% 0% 3% 7.2%;
+    width: 250px;
+    height: $height*3;
+    font-weight: 500;
+} 
+
+.carrusel{
+    height: 106vh;
+    width: $width/5;
+}
+.articulo{
+    float: left;
+}
+
+.donacion{
+    float: left;
+}
+
+.section{
+    color: #0099CC;
+}
+
+.colum{
+    color: #F8485E;
+}
+
+
+.cuidados{
+    color: #512D6D;
+
+}
+
+.cuidadostexto{
+    color: #512D6D;
+    display: inline-block;
+    margin: 0% 39%;
+    width: $width/5-20;
+}
+
+
+.borde{
+    border: double 10px rgb(74, 148, 223);
+    width: $width/5-20;
+    height: $height*25;
+    overflow-y: scroll;
+}
+
+.Conocenos__container{
+    padding: 10px;
+    width: $width/5;
+    border: solid 1px wheat;  
+    flex-direction: row;
+}
+
+.Conocenos__voluntarios--img{
+    display: inline-block;
+    padding: 100px;
+    width: 600px;
+    height: $height*20+50;
+    transition-duration: 0.5s;
+    filter: brightness(0.5) blur(3px);
+    
+} 
+
+.Conocenos__voluntarios--img:hover{
+    filter: brightness(1);
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    -o-transform:scale(1.5);
+    transform:scale(1.5);
+    
+}
+.unirte{
+    color: black;
+    background-color:rgb(255, 248, 236);
+    font-weight: 900;
+    position: relative; 
+    margin-left: 1390px; 
+    bottom: 80px;
+}
+.div-container{
+    place-items: center;
+    padding: 2rem;
+    width: $width/5-60;
+    display: inline-block;
+
+}
+.img-ayuda{
+    display: inline-block;
+    width: $width/5-60;
+    clear: both;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+    bottom: 200px;
+}
+
+.text{
+    color: rgb(98, 98, 98);
+    margin: 20px;
+}
+
+.grids-patita{
+    padding-left: 10px; 
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grids-importe{
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.grids-cuidados{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+}
+
+.Cuidados__Text{
+    width: $width/5-20;
+    margin-top: 4rem;
+}
+
+.w-full{
+    width: $width/5;
+}
+
+.cuidados{
+    border-radius: 50%;
+}
+
+.donacion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.Donacion__imagen{
+    width: 50rem;
+       
+}
+
+.Donacion__texto--derecha{
+    width: $width/5-20;
+    margin-top: 10rem;
+}
