@@ -4,7 +4,8 @@
   font-size: 2rem;
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+ }
 
 hr {
   width: 250%;
@@ -89,9 +90,9 @@ hr {
   overflow-y: scroll; }
 
 .Conocenos__container {
-  padding: 10px;
+  padding: 5px;
   width: 100%;
-  border: solid 1px wheat;
+  /* border: solid 1px wheat; */
   flex-direction: row; }
 
 .Conocenos__voluntarios--img {
@@ -109,6 +110,7 @@ hr {
   -ms-transform: scale(1.5);
   -o-transform: scale(1.5);
   transform: scale(1.5); }
+
 
 .unirte {
   color: black;
@@ -139,15 +141,13 @@ hr {
   color: #626262;
   margin: 20px; }
 
-.grids-patita {
-  padding-left: 10px;
-  display: grid;
-  grid-template-columns: 50% 50%; }
+.form-ayudanos{
+  text-align: center;
+}
 
-.grids-importe {
-  padding-left: 10px;
-  display: grid;
-  grid-template-columns: 50% 50%; }
+.form-cuidados{
+  text-align: center;
+}
 
 .grids-cuidados {
   display: grid;
@@ -221,7 +221,9 @@ html {
 
 .footer__nav img {
   width: 30px;
-  height: 30px; }
+  height: 30px;
+  margin-right: 7px;
+}
 
 .footer__map {
   flex: 1 1 auto;
@@ -382,3 +384,5 @@ div section div {
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 25vh 5vh 60vh 10vh;
     grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "foot foot foot foot"; } }
+
+

@@ -110,9 +110,9 @@ hr{
 }
 
 .Conocenos__container{
-    padding: 10px;
+    padding: 5px;
     width: $width/5;
-    border: solid 1px wheat;  
+    // border: solid 1px wheat;  
     flex-direction: row;
 }
 
@@ -167,27 +167,22 @@ hr{
     margin: 20px;
 }
 
-.grids-patita{
-    padding-left: 10px; 
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.grids-importe{
-    padding-left: 10px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-
-}
-
 .grids-cuidados{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-
 }
+
+.form-ayudanos{
+    text-align: center;
+}
+
+.form-cuidados{
+    text-align: center;
+}
+  
 
 .Cuidados__Text{
     width: $width/5-20;
